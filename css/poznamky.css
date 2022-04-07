@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(139, 204, 184);
+    margin: 50px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(20, 83, 49);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: square;
+}
+
+/* li {
+    list-style: none;
+} */
+
+a:hover {
+    text-decoration: underline;
+}
+#obsah {
+    color: rgb(163, 27, 118);
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 45px;
+    font-family: 'Hurricane', cursive;
+} 
+#fotka {
+    text-align: left;
+}
+
+#mama {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(119, 170, 212);
+    box-shadow: 3px 1px 2px rgba(20, 83, 49, 0.2);
+}

@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    width: 800px;
+    margin: 50px auto 50px auto;
+}
+
+h1 {
+    color: rgb(90, 90, 187);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Fira', sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+main {
+    text-align: left;
+    background-color: rgb(90, 90, 187);
+    padding: 20px 30px 15px 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-family: 'Fira', sans-serif;
+}
+
+img {
+    width: 50%;
+}
+
+main p {
+    color: white;
+}
+
+a {
+    background-color: rgb(243, 188, 7);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    color: rgb(66, 2, 2);
+    font-weight: 550;
+    font-family: 'Fira', sans-serif;
+}
+
+
+footer p {
+    color: black;
+    font-family: 'Fira', sans-serif;
+    color: rgba(32, 2, 31, 0.5);
+    font-weight: 600;
+}
+
+strong {
+    /*  background-color: rgb(177, 177, 10); */
+}
+
+span, #mdn {
+    background-color: rgb(177, 177, 10);
+    border-radius: 3px;
+    color: rgb(38, 4, 53);
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(177, 177, 10);
+    border-radius: 3px;
+    color: rgb(38, 4, 53);
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.odsazen {
+    text-indent: 20px;
+}
+
+.verticalLine {
+    border-left: thick solid #bad811;
+  }
+
+  p.verticalLine {
+      padding-left: 15px;
+      color: #bad811;
+  }

@@ -1,0 +1,42 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+h1 {
+    color:blue;
+    font-family: 'Oswald', sans-serif;
+   /*  text-align: center; */
+}
+h2 {
+    color: red;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    color: brown;
+}
+
+/* header p {
+    margin-bottom: 0; 
+}*/
+
+a {
+    text-decoration: none;
+    background-color: rgb(55, 120, 122);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 3px solid black;
+    /* border-style: dashed; */
+    /* display: inline-block; */
+   /*  margin: 10px auto 10px auto; */
+    /* text-align: center; */
+    padding: 0px;
+
+}
+
+a:hover {
+  background-color: rgb(255, 65, 0);  
+}
