@@ -248,8 +248,18 @@
                   tuto změnu do staged area pomocí příkazu git add . a pak to
                   ještě commitnout.
                 </li>
-                <li></li>
+                <li>
+                  git rm file2.txt: Vymaže se soubor file2.txt v aktuální větvi.
+                  Je také zapotřebí, abychom se nacházel v adresáři, kde je
+                  uložen soubor file2.txt. To se například stane, když budeme
+                  mazat soubor v nějakém podadresáři. Pak se tyto změny projeví
+                  ve staging area a poté je možné tyto změny commitnout a
+                  definitivně vymazat dané soubory.
+                </li>
               </ol>
+            </li>
+            <li>git reset --hard HEAD~1  :
+               vracíme se jeden commit zpět. Inovuje se jak index, tak path.
             </li>
           </ul>
         </article>
