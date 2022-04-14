@@ -258,8 +258,29 @@
                 </li>
               </ol>
             </li>
-            <li>git reset --hard HEAD~1  :
-               vracíme se jeden commit zpět. Inovuje se jak index, tak path.
+            <li>
+              git reset --hard HEAD~1 : vracíme se jeden commit zpět. Inovuje se
+              jak index, tak path.
+            </li>
+            <li>
+              git branch -D feature : vymaže se větev (branch) s názvem
+              "feature". (Asi bychom měli před tím přepnout do jiné větve než
+              kterou chceme smazat.)
+            </li>
+            <li>
+              git checkout -- . : tímto způsobem smažeme resetujeme poslední
+              změny, které jsme zatím nepřidali do staged area a přejdeme k
+              poslednímu stavu, který odpovídá poslednímu commitu v aktuaálním
+              branchi.
+            </li>
+            <li>
+              git reset file1.txt  :
+              tímto příkazem vratíme poslední verzi souboru file1.txt ze 
+              staged area do unstaged area. (Tedy pokud jsme již změny předali
+              do staged area příkazem git add .)
+              Potém můžeme přejít k posledním commitu pomocí příkazu:
+              git checkout -- . nebo více specificky příkazem:
+              git checkout -- file1.txt 
             </li>
           </ul>
         </article>
