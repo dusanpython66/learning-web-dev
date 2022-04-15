@@ -213,6 +213,10 @@
               uloží změny do repozitáře.
             </li>
             <li>
+              git config --global --edit : zobrazí jméno uživatele a email (a
+              možná umožňuje tyto osobní údaje přepsat přímo v editoru VSC)
+            </li>
+            <li>
               git config --global user.name : zobrazí jméno "majitele"
               <br />
               git config --global user.name "Dušan Bednařík"
@@ -285,7 +289,39 @@
         <article>
           <h3>Github</h3>
           <ul>
-            <li></li>
+            <li>
+              <strong>
+                git remote add origin
+                https://github.com/dusanpython66/learning-web-dev.git
+              </strong>
+              : vytvoří propojení mezi lokálním repozitářem v gitu a vzdáleném
+              (remote) repozitářem na githubu s uvedenou url adresou. Dále bude
+              jméno
+              <em>origin</em>
+              zatupovat uvedenou url adresu.
+            </li>
+            <li>
+              To add a new remote, called for example github instead of origin
+              (which obviously already exists in your system), do the following:
+              <strong>
+                git remote add github
+                https://github.com/dusanpython66/learning-web-dev.git
+              </strong>
+              Remember though, everywhere in the tutorial you see "origin" you
+              should replace it with "github". For example  git push origin
+              master should now be $ git push github master. However, if you
+              want to see what that origin which already exists is, you can do a
+              <strong> git remote -v </strong>. If you think this is there by
+              some error, you can update it like so:
+              <strong>
+                git remote set-url origin
+                https://github.com/dusanpython66/learning-web-dev.git
+              </strong>
+            </li>
+            <li>
+              <strong>git push -u origin main</strong> : zkopíruje obsah
+              lokálního repozitáře do vzdáleného (remote) repozitáře main. 
+            </li>
           </ul>
         </article>
       </section>
