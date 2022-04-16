@@ -308,9 +308,9 @@
                 https://github.com/dusanpython66/learning-web-dev.git
               </strong>
               Remember though, everywhere in the tutorial you see "origin" you
-              should replace it with "github". For example  git push origin
-              master should now be $ git push github master. However, if you
-              want to see what that origin which already exists is, you can do a
+              should replace it with "github". For example git push origin
+              master should now be git push github master. However, if you want
+              to see what that origin which already exists is, you can do a
               <strong> git remote -v </strong>. If you think this is there by
               some error, you can update it like so:
               <strong>
@@ -320,7 +320,18 @@
             </li>
             <li>
               <strong>git push -u origin main</strong> : zkopíruje obsah
-              lokálního repozitáře do vzdáleného (remote) repozitáře main. 
+              lokálního repozitáře do vzdáleného (remote) repozitáře main.
+            </li>
+            <li>
+              <strong>git clone &lt;url repozitáře&gt; .</strong> : skopíruje obsah vzdáleného
+              repozitáře do aktuálního lokálního adresáře. není ani potřeba
+              inicializovat příkazem git init lokální git repozitář neboť
+              naklonujeme celý vzdálený repozitář včetně celé struktury
+              repozitáře.
+            </li>
+            <li>
+              <strong>git pull</strong> : stáhne aktuální stav vzdáleného
+              repozitáře do lokálního repozitáře.
             </li>
           </ul>
         </article>
