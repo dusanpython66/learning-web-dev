@@ -25,4 +25,5 @@
   li {
     background-color: rgb(238, 212, 192);
     width: 100px;
+    text-align: right;
   }
