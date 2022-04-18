@@ -1,3 +1,7 @@
+body {
+  margin: 30px;
+}
+
 div {
     background-color: #e41b1b;
     padding: 20px;
@@ -12,6 +16,7 @@ div {
   
   #container {
     background-color: #d8bdd8;
+    position: relative;
   }
   
   #container p {
@@ -24,8 +29,9 @@ div {
   
   #two {
     background-color: #c95bc7;
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: -20px;
+    right: 0;
   }
   
   #three {
