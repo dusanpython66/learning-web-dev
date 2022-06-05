@@ -29,9 +29,9 @@ div {
   
   #two {
     background-color: #c95bc7;
-    position: absolute;
-    top: -20px;
-    right: 0;
+    position: relative;
+    top: 20px;
+    right: 10px;
   }
   
   #three {
