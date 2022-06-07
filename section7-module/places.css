@@ -28,4 +28,23 @@ main li img {
 
 .item-content {
     padding: 24px;
+    position: relative;
+}
+
+.item-content h2, p {
+    color: rgb(79, 76, 76);
+}
+
+.item-content a {
+    color: rgb(22, 211, 228);
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 3px;
+    position: absolute;
+    bottom: 24px;
+    right: 60px;
+}
+
+.item-content a:hover {
+    background-color: rgb(235, 253, 255);
 }
