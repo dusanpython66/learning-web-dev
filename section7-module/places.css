@@ -1,4 +1,5 @@
 body {
+    color: rgb(79, 76, 76);
     background: linear-gradient(30deg, 
     rgb(77, 77, 77), rgb(58, 58, 58));
 }
@@ -8,8 +9,11 @@ header {
 }
 
 main ul {
-    width: 800px;
+    width: 1500px;
     margin: 0 auto;
+    /* display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; */
 }
 
 main li {
@@ -18,6 +22,7 @@ main li {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     overflow: hidden;
+    width: 500px;
 }
 
 main li img {
@@ -28,11 +33,18 @@ main li img {
 
 .item-content {
     padding: 24px;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+
 }
 
-.item-content h2, p {
+/* .item-content h2, p {
     color: rgb(79, 76, 76);
+} */
+
+.actions {
+    text-align: right;
 }
 
 .item-content a {
@@ -40,9 +52,9 @@ main li img {
     font-weight: bold;
     border-radius: 6px;
     padding: 3px;
-    position: absolute;
+    /* position: absolute;
     bottom: 24px;
-    right: 60px;
+    right: 60px; */
 }
 
 .item-content a:hover {
