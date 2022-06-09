@@ -6,11 +6,14 @@ main {
 }
 
 ul {
-  background-color: rgb(250, 146, 63);
+    background-color: rgb(250, 146, 63);
   list-style: none;
   width: 800px;
   margin: 10px auto;
   padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px 200px;
 }
 
 li {
@@ -18,4 +21,13 @@ li {
   text-align: center;
   width: 200px;
   margin: 20px auto;
+}
+
+/* li:first-of-type {
+  background-color: red;
+} */
+
+li:nth-of-type(3) {
+  background-color: red;
+  grid-column: 1 / span;
 }
