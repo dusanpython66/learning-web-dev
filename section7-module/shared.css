@@ -29,7 +29,7 @@ a {
 #page-logo a {
     padding: 10px;
     font-family: "Oleo Script", sans-serif;
-    color: rgb(245, 243, 160);
+    color: rgb(234, 231, 28);
     font-size: 50px;
     text-decoration: none;
     text-transform: uppercase;
@@ -53,7 +53,7 @@ header a {
     border-radius: 6px;
 }
 
-header a:hover {
+header nav a:hover {
     color: rgb(77, 77, 77);
     background-color: rgb(255 , 251, 0);
 }

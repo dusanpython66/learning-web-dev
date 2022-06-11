@@ -4,16 +4,32 @@ body {
     rgb(77, 77, 77), rgb(58, 58, 58));
 }
 
+#page-logo a {
+    color: rgb(183, 230, 235);
+}
+
 header {
     position: static;
 }
 
+header a {
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+    background-color:  rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
 main ul {
     width: 1500px;
-    margin: 0 auto;
+    margin: 0 auto 48px auto;
     /* display: flex;
     flex-direction: column; 
     flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
 }
 
 main li {
@@ -21,8 +37,7 @@ main li {
     background-color: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
-    overflow: hidden;
-    width: 500px;
+    overflow: hidden; 
 }
 
 main li img {
@@ -36,7 +51,12 @@ main li img {
     /* position: relative; */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
+}
+
+.item-content h2 {
+    margin: 0;
 }
 
 /* .item-content h2, p {
@@ -59,4 +79,8 @@ main li img {
 
 .item-content a:hover {
     background-color: rgb(235, 253, 255);
+}
+
+li:nth-of-type(3) {
+    grid-column: 1 / span 2;
 }
