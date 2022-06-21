@@ -48,6 +48,8 @@ main h1 {
     text-align: center;
     color: rgb(238, 164, 80);
     font-size: 3rem; 
+    /* change the font-size to
+    1.5rem for displays with max-width: 768px */
 }
 
 #latest-products {
@@ -98,8 +100,15 @@ main h1 {
     background-color: rgb(221, 134, 34);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+    #main-header ul {
+        display: none;
+    }
+    main h1 {
+        font-size: 1.5rem;
+    }
+
     #latest-products ul {
         grid-template-columns: 100%;
-    } 
+    }  
 }
