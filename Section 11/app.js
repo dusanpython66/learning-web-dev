@@ -9,12 +9,25 @@ let job = {
 
 let adultYears;
 
-function calculateAdultYears() {
-    adultYears = age - 18
+function calculateAdultYears(userAge = 18) {
+  return userAge - 18;
 }
 
-calculateAdultYears()
-alert(adultYears);
+adultYears = calculateAdultYears(age);
+/* alert(adultYears); */
+console.log(adultYears);
 
-job.salary = 10000;
-alert(job.salary);
+console.log(calculateAdultYears());
+
+/* job.salary = 10000;
+alert(job.salary); */
+
+let person = {
+  name: "Max", // Property
+  greet() {
+    // Method
+    console.log("Hello!");
+  },
+};
+
+person.greet();
