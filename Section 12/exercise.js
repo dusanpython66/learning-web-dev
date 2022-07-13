@@ -24,9 +24,8 @@ console.log(paragraf);
 // 5. BONUS TASK: Try changing the text content of the <p> element
 //    you selected in (4) and set it to any other text of your choice
 
-/* let newText = paragraf.textContent;
-newText = "Toto je ";
-console.log(newText);
- */
+let newText = paragraf.textContent;
 
-paragraf.textContent = "This was changed by Dušan!";
+console.log(newText);
+
+ paragraf.textContent = "This was changed by Dušan!"; 

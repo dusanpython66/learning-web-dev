@@ -1,9 +1,16 @@
-/* console.dir(document); */
-//document.body.children[2].children[0].href = "https://google.com";
+let paragraphElement = document.querySelector("p");
 
-let anchorElement;
-/* anchorElement = document.getElementById("external-link");
-anchorElement.href = "https://google.com"; */
+function changeParagraphText() {
+    paragraphElement.textContent = "Clicked";
+    console.log("Paragraph clicked!");
+}
 
-anchorElement = document.querySelector("p a");
-anchorElement.href = "https://dusanbednarik.cz"
+paragraphElement.addEventListener("click", changeParagraphText);
+
+//////////////// Listening to the user keystroke //////////////////////
+
+let inputField = document.querySelector("input");
+let number = document.querySelector("p")
+function updateNumber() {
+    number.
+}
