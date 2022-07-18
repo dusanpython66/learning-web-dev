@@ -1,7 +1,40 @@
-a {
-    text-decoration: none;
+body {
+    margin 0;
+    background-color: rgb(36, 32, 32)
 }
 
-strong {
-    color: brown;
+form {
+    margin 5rem;
+    background-color: rgb(228, 227, 183);
+    margin: 2rem 5rem;
+    padding: 0.3rem;
+    border-radius: 6px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -0.2rem;
+}
+
+#inputArea {
+    display: flex;
+    text-align: justify;
+    /* justify-content: flex-start; */
+}
+
+input {
+    background-color: rgb(235, 234, 145);
+    box-sizing: border-box;
+    display: block;
+    margin: 0.5rem 1rem 0.5rem 0;
+    width: 50%;
+}
+
+button {
+    display: block;
+    background-color: rgb(177, 177, 19);
+    border: 1px white;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
 }
