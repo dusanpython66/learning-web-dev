@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advanced JavaScript</title>
-    <script src="/Section 12/app.js" defer></script>
     <link rel="stylesheet" href="/Section 12/styles.css" />
+    <script src="/Section 12/demo.js" defer></script>
   </head>
   <body>
-    <form action="/data" method="post">
+    <!--  <form action="/data" method="post">
       <h1>Product Name</h1>
       <div id="inputArea">
         <input type="text">
         <p>60/60</p>
+      </div>
+      <button>Submit</button>
+    </form> -->
+    <form action="">
+      <div class="control">
+        <label for="product-name">Product Name</label>
+        <input type="text" id="product-name" maxlength="60">
+        <span id="charcount">
+          <span id="remaining-chars">60</span>/60
+        </span>
       </div>
       <button>Submit</button>
     </form>
