@@ -15,6 +15,14 @@ section {
   border-radius: 6px;
 }
 
+.first-class {
+  background-color: rgb(174, 174, 224);
+}
+
+.second-class {
+  display: none;
+}
+
 button {
   cursor: pointer;
   font: inherit;
