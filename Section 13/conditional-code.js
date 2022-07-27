@@ -1,5 +1,5 @@
 /* const userName = "Dušan";
-if (userName == "Dušan") {
+if (userName === "Dušan") {
   console.log("Hello!");
 } */
 
@@ -20,8 +20,8 @@ function countKeyStrokes(event) {
   if (num >= 50) {
     event.target.style.backgroundColor = "rgb(20, 150, 0)";
     parNum.style.color = "blue";
-  }
-  if (num < 50) {
+  } 
+  else {
     event.target.style.backgroundColor = "rgb(235, 234, 145) ";
     parNum.style.color = "black";
   }
