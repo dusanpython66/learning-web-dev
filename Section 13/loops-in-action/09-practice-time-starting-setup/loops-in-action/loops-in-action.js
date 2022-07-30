@@ -78,7 +78,9 @@ function deriveNumberOfDiceRolls() {
 
   let hasRolledTargetNumber = false;
 
-  while 
+  while () {
+    
+  }
 }
 
 rollDiceButtonElement.addEventListener("click", deriveNumberOfDiceRolls);
