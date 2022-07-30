@@ -23,7 +23,7 @@ calculateSumButtonElement.addEventListener("click", calculateSum);
 // Highlight links
 
 const highLightLinksButtonElement = document.querySelector(
-  "#highlight-links button"
+  "#highlight-links button"         
 );
 
 function highlightLinks() {
